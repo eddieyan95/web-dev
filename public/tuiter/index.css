@@ -69,6 +69,7 @@ li { display: inline;padding: 16px}
     flex-flow:row;
     width: 504px;
     justify-content:space-between ;
+    margin-bottom: 12px;
 }
 
 .linkcolor {
