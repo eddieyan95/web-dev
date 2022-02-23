@@ -1,0 +1,82 @@
+/*Part A rounded corner*/
+.rounded-corners-all-around {border-radius: 50px}
+.bg-color-darkgrey { background-color: darkgray; }
+.bg-color-black { background-color:black}
+.input-box-size {width: 50%;margin-left: 48px}
+.fg-color-white {color: white;}
+.pos-relative-nudge-up-right {
+    position: relative;
+    left: 12px;
+}
+
+/*Part B*/
+li { display: inline;padding: 16px}
+
+.menu-hl {font-size:15px;
+          text-decoration:none;
+          color:rgb(29,161,242);
+          padding:16px;
+          border-bottom: solid rgb(29,161,242)}
+.menu-uh {font-size:15px;text-decoration:none;color:rgb(110,118,125);padding:16px}
+
+/*Part C*/
+.foryou {font-size: 15px;
+         color:rgb(110,118,125);}
+
+/*Part D*/
+.foryou2 {font-size: 15px;
+          color:white}
+
+.float-right {float: right;border-radius: 10%;height: 100px;width: 100px;margin-right: 16px}
+
+.greyline{color:rgb(110,118,125)}
+
+/*Bookmark style*/
+.bookmarkpage {color:lightgray;font-size: 20px;padding-left: 12px}
+.bookmarpage2 {color:lightgray;font-size: 13px;padding-left: 16px;
+               padding-bottom: 12px;border-bottom:solid 1px}
+
+/*Bookmark style b*/
+.avatar {height: 48px;width: 48px;border-radius: 50%;position: relative;margin-left: 16px}
+.textpos {margin-left: 76px;padding-top: 12px;color:white;font-size: 15px}
+.handlecolor {color:lightgray}
+.main {font-size: 15px;color: white;padding-right: 16px;width: 506px;margin-left: 76px}
+
+.border {border:1px solid gray;
+         border-radius: 12px;
+         width:504px;
+         margin-left: 76px}
+.image {width: 504px;
+        height: 264px;
+        border-radius: 12px 12px 0 0 ;
+        border-bottom: 1px solid lightgray;
+      }
+
+.texttitle { font-size: 15px;
+        font-weight: bold;
+        color: white;
+        padding: 12px;
+        }
+
+.text {color: lightgray;
+       font-size: 15px;
+       padding: 0px 12px 12px 12px}
+
+.test {
+    margin-top:12px;
+    margin-left: 76px;
+    display: flex;
+    flex-flow:row;
+    width: 504px;
+    justify-content:space-between ;
+    margin-bottom: 12px;
+}
+
+.linkcolor {
+    color: lightgray;
+}
+
+.heartcolor {
+    color: red;
+}
+
