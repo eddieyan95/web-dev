@@ -1,0 +1,77 @@
+.form-rounded {
+    border-radius: 50rem;
+}
+
+.navborder {
+    border: 1px;
+}
+
+.buttoncolor {
+    background-color:#1DA1F2;
+    border:none;
+}
+
+.iconsize {
+    font-size: 24px;
+}
+
+.contentcol {
+    color: lightgray;
+}
+
+.fontcolor{
+    color:white
+}
+
+.bg-color-black{
+    background-color:black;
+    border: none;
+}
+
+.bg-color-black-wb {
+    background-color:black;
+}
+
+.account-bg-color {
+    background-color:black;
+    border-color: darkgrey;
+}
+
+.tabhightlight {
+    color:white;
+
+}
+
+.rounded-logo {
+    border-radius:5px;
+}
+
+.followbutton {
+    background-color: lightgray;
+    color: black;
+}
+
+.setting {
+    color: lightgray;
+}
+
+.roundedborder {
+    border-radius: 20px;
+}
+
+.tab-content {
+    border-bottom: solid 2px blue;
+}
+
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+}
