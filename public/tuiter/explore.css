@@ -75,3 +75,8 @@
     width: 100%;
     font-size: 30px;
 }
+
+.nodot {
+    list-style-type: none;
+
+}
