@@ -3,14 +3,16 @@ import who from "./who.js"
 
 const WhoToFollowList = () => {
     return (`
-            <ul class="list-group">
+           <div className="list-group">
+            
             <!-- continue here -->
             ${
         who.map(who => {
             return(WhoToFollowListItem(who));
         }).join('')
     }
-            </ul>
+            
+            </div>
 `); }
 
 export default  WhoToFollowList;
