@@ -1,6 +1,6 @@
 const WhoToFollowListItem = (who) => {
     return(`
-        <li class="nodot">
+        <li class="nodot list-group-item">
         <div class="row pt-1">
         <div class="col-3">
          <img alt="Responsive image" class="rounded-circle img-fluid"

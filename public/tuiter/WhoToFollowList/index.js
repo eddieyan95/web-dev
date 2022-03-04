@@ -3,8 +3,8 @@ import who from "./who.js"
 
 const WhoToFollowList = () => {
     return (`
-           <div className="list-group">
-            
+           <ul className="list-group">
+            <li class="list-group-item">Who to follow</li>
             <!-- continue here -->
             ${
         who.map(who => {
@@ -12,7 +12,7 @@ const WhoToFollowList = () => {
         }).join('')
     }
             
-            </div>
+            </ul>
 `); }
 
 export default  WhoToFollowList;

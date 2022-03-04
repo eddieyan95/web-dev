@@ -27,7 +27,7 @@ import PostSummaryList from "../PostSummaryList/index.js";
             <div class="mt-3">
                 <ul class="nav mb-2 nav-tabs">
                     <li class="nav-item ">
-                        <a class="nav-link contentcol" href="#" >For you</a>
+                        <a class="nav-link contentcol aria-current="page" href="#" >For you</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link contentcol" href="#">Trending</a>
@@ -40,7 +40,7 @@ import PostSummaryList from "../PostSummaryList/index.js";
                     </li>
                     <div class="tab-content">
                     <li class="nav-item">
-                        <a class="nav-link  hidden-md hidden-sm hidden-xs tabhightlight tab-content nav-tabs  " href="#">Entertainment</a>
+                        <a class="nav-link  hidden-md hidden-sm hidden-xs tab-content nav-tabs  " href="#">Entertainment</a>
                     </li></div>
 
                 </ul>
@@ -58,7 +58,7 @@ import PostSummaryList from "../PostSummaryList/index.js";
             <!--Picture end-->
             
             <!--content-->
-            <div class="list-group" >
+            <div class="list-group mt-3" >
             ${PostSummaryList()}
 
             </div>
@@ -70,7 +70,6 @@ import PostSummaryList from "../PostSummaryList/index.js";
         
          
         <div class="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 col-4 nodot" >
-            <h6>Who to follow</h6>
             ${WhoToFollowList()}
         </div>
 

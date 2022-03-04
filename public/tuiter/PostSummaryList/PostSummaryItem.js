@@ -1,6 +1,6 @@
 const PostSummaryItem = (post) => {
     return(`
-        <li class="nodot">
+        <li class="nodot ">
           <div className=" list-group list-group-item list-group-item-action bg-color-black-wb" >
                     <div class="row bg-color-black-wb ">
                         <div class="col-10">
