@@ -27,7 +27,7 @@ import PostSummaryList from "../PostSummaryList/index.js";
             <div class="mt-3">
                 <ul class="nav mb-2 nav-tabs">
                     <li class="nav-item ">
-                        <a class="nav-link contentcol aria-current="page" href="#" >For you</a>
+                        <a class="nav-link contentcol "aria-current="page" href="#" >For you</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link contentcol" href="#">Trending</a>
