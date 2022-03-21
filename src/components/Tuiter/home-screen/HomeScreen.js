@@ -1,8 +1,8 @@
 import React from "react";
 import NavigationSidebar from "../NavigationSidebar";
 import PostList from "../PostList";
-import PostSummaryItem from "../PostSummaryList/PostSummaryItem";
-import ExploreComponent from "../explore-screen /ExploreComponent";
+// import PostSummaryItem from "../PostSummaryList/PostSummaryItem";
+// import ExploreComponent from "../explore-screen /ExploreComponent";
 import PostSummaryList from "../PostSummaryList";
 
 const HomeScreen = () => {

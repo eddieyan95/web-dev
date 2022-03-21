@@ -1,13 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import NavigationSidebar from "./NavigationSidebar";
-
-import WhoToFollowList from "./WhoToFollowList";
-import PostSummaryList from "./PostSummaryList";
-import ExploreComponent from "./explore-screen /ExploreComponent";
+// import NavigationSidebar from "./NavigationSidebar";
+//
+// import WhoToFollowList from "./WhoToFollowList";
+// import PostSummaryList from "./PostSummaryList";
+// import ExploreComponent from "./explore-screen /ExploreComponent";
 import ExploreScreen from "./explore-screen /ExploreScreen";
-import PostItem from "./PostList/PostItem";
-import HomeScreen from "./home-screen/HomeScreen";
+// import PostItem from "./PostList/PostItem";
+// import HomeScreen from "./home-screen/HomeScreen";
 
 
 const Tuiter = () => {
