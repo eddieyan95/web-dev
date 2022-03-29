@@ -1,12 +1,14 @@
 import React from "react";
 import WhoToFollowListItem from
         "./WhoToFollowListItem";
-import who from "./who.json";
+import who from "./who.json"; //we moved the data into the reducer instead
+import {useSelector} from "react-redux"; //import hook to retrieve state from reducer
 
 
 
 const WhoToFollowList = () => {
-    console.log(who);
+
+    const who = useSelector(state => state.who);//retrieve state from store
     return (<>
 
            <ul className="list-group">

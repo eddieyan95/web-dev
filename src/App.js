@@ -17,6 +17,7 @@ function App() {
         <BrowserRouter>
             <div className="container">
                 <Routes>
+                    <Route path="/">
                     <Route path="/hello"
                            exact={true}
                            element={<HelloWorld/>}/>
@@ -31,8 +32,7 @@ function App() {
 
 
 
-
-
+                    </Route>
                 </Routes>
             </div>
         </BrowserRouter>

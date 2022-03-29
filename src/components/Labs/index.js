@@ -5,6 +5,7 @@ import Styles from "./Styles";
 import ConditionalOutput from "./ConditionalOutput";
 import TodoItem from "./Todo/TodoItem";
 import TodoList from "./Todo/TodoList";
+import ReduxExamples from "./redux-examples";
 
 const Labs = () => {
     return(
@@ -22,6 +23,7 @@ const Labs = () => {
             <Link to="/tuiter">
                 Tuiter
             </Link>
+            <ReduxExamples/>
         </>
     )
 };
